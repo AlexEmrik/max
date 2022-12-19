@@ -434,7 +434,6 @@ blockquote span{
 }
 .contact-middle div p{
     font-weight: 300;
-    color: var(--lightGrey);
     opacity: 0.7;
 }
 .contact-bottom{
