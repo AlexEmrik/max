@@ -422,7 +422,6 @@ blockquote span{
     padding: 25px 0;
     background: var(--dark);
     color: #fff;
-    text-decoration: #fff;
 }
 .contact-middle div span{
     display: block;
@@ -437,8 +436,11 @@ blockquote span{
 .contact-middle div p{
     font-weight: 300;
     opacity: 0.7;
+}
+p.remove-auto-detection{
     text-decoration: none;
 }
+
 .contact-bottom{
     margin-top: 50px!important;
 }
