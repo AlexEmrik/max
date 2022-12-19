@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
 :root{
     --white: #ddd;
     --dark: #111;
@@ -436,6 +437,7 @@ blockquote span{
 .contact-middle div p{
     font-weight: 300;
     opacity: 0.7;
+    text-decoration: none;
 }
 .contact-bottom{
     margin-top: 50px!important;
