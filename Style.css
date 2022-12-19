@@ -437,9 +437,7 @@ blockquote span{
     font-weight: 300;
     opacity: 0.7;
 }
-a[href^="tel:"] {
-    text-decoration: none;
-}
+
 .contact-bottom{
     margin-top: 50px!important;
 }
