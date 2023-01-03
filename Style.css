@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6, p{
 .about-content h2{
     font-size: 48px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: -25px;
     color: var(--lightGreen);
 }
 .about-content h3{
@@ -179,7 +179,7 @@ blockquote{
     font-weight: 300;
     opacity: 0.9;
     width: 60vw;
-    margin: 45px auto 15px auto;
+    margin: 45px auto -15px auto;
     text-align: center;
 }
 blockquote span{
@@ -192,7 +192,7 @@ blockquote span{
 }
 .social-icons{
     width: 350px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 0px auto;
     padding-bottom: 30px;
 }
 .social-icons ul a{
@@ -363,7 +363,11 @@ blockquote span{
 }
 .blog{
     margin: 40px 0;
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
 }
+
 .blog-content{
     padding: 25px;
     background: #f7f7f7;
@@ -391,6 +395,9 @@ blockquote span{
 }
 .blog-text{
     font-weight: 300;
+    transition: all 2s ease-in;
+    max-height: 0px;
+
 }
 
 /*************** end of blog.html ***********/
@@ -719,3 +726,9 @@ a[href^="tel"] {
     }
 }
 
+#center-button {
+    margin: 20px auto -5px;
+    background-color: #86c232;
+    border-color: #86c232;
+    color: #fff;
+}
