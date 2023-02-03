@@ -175,11 +175,11 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 blockquote{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     opacity: 0.9;
     width: 60vw;
-    margin: 45px auto -15px auto;
+    margin: 5px auto -25px auto;
     text-align: center;
 }
 blockquote span{
@@ -732,3 +732,4 @@ a[href^="tel"] {
     border-color: #86c232;
     color: #fff;
 }
+
