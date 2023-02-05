@@ -683,6 +683,7 @@ a[href^="tel"] {
     /* overall styling */
     .header{
         padding-bottom: 30px;
+        height: 100%;
     }
     .social-icons{
         display: none;
