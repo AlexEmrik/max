@@ -34,6 +34,28 @@ function addInfo1() {
         document.getElementById("merit3").style.maxHeight = "0px"   ;
     }
 }
+    function addInfo4() {
+    const elem = document.getElementById('merit4')
+    if (elem.childNodes.length == '') {
+        document.getElementById('merit4').innerHTML = 'Bilden är från en födelsedagsfotografering som tog plats i Hågelbys Slottspark';
+        document.getElementById("merit4").style.maxHeight = "10000px";
+    }
+    else{
+        document.getElementById('merit4').innerHTML = '';
+        document.getElementById("merit4").style.maxHeight = "0px"   ;
+    }
+    }
+    function addInfo5() {
+        const elem = document.getElementById('merit5')
+        if (elem.childNodes.length == '') {
+            document.getElementById('merit5').innerHTML = 'Bilden är från min fotoutställning som tog plats i Stocksund';
+            document.getElementById("merit5").style.maxHeight = "10000px";
+        }
+        else{
+            document.getElementById('merit5').innerHTML = '';
+            document.getElementById("merit5").style.maxHeight = "0px"   ;
+        }
+        }
 
 showBtn.addEventListener('click', function(){
     if(topNav.classList.contains('showNav')){
