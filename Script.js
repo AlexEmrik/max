@@ -56,6 +56,17 @@ function addInfo1() {
             document.getElementById("merit5").style.maxHeight = "0px"   ;
         }
         }
+        function addInfo6() {
+            const elem = document.getElementById('merit6')
+            if (elem.childNodes.length == '') {
+                document.getElementById('merit6').innerHTML = 'Bilden är från Roll-SM som tog plats vid Fridhemskanotisternas kanotklubb';
+                document.getElementById("merit6").style.maxHeight = "10000px";
+            }
+            else{
+                document.getElementById('merit6').innerHTML = '';
+                document.getElementById("merit6").style.maxHeight = "0px"   ;
+            }
+            }
 
 showBtn.addEventListener('click', function(){
     if(topNav.classList.contains('showNav')){
